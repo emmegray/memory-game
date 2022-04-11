@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body > h2 {
+  font-size: 3rem;
+  background-color: rgba(255, 217, 0, 0.657);
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+#grid > img{
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.466);
+  border-radius: 20px;
+  margin: 0 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.517);
+}
