@@ -1,19 +1,25 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(/images/wallpaper.jpg);
-  background-repeat: no-repeat;
+  background-repeat: no-repea;
+  background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-body > h2 {
+body>h2 {
   font-size: 3rem;
   background-color: rgba(255, 217, 0, 0.657);
-  box-shadow: 5px 5px 5px 5px black;
 }
 
-#grid > img{
+#grid {
+  background: rgb(251, 145, 63);
+  background: radial-gradient(circle, rgba(251, 145, 63, 1) 0%, rgba(252, 193, 70, 1) 100%);
+}
+
+#grid>img {
   width: 200px;
   display: flex;
   flex-wrap: wrap;
